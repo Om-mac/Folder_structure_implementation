@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import sys, json
-from PyQt5.QtWidgets import QApplication, QTreeView, QVBoxLayout, QWidget
-from PyQt5.QtGui import QStandardItemModel, QStandardItem
+from PyQt5.QtWidgets import QApplication, QTreeView, QVBoxLayout, QWidget # type: ignore
+from PyQt5.QtGui import QStandardItemModel, QStandardItem # type: ignore
 
 def build_tree(parent, data):
     for key, value in data.items():
@@ -16,7 +16,7 @@ def show(json_file):
 
     app = QApplication(sys.argv)
     window = QWidget()
-    window.setWindowTitle("om's Project")
+    window.setWindowTitle("Backtracking Project")
     window.resize(700, 500)
 
     layout = QVBoxLayout()
