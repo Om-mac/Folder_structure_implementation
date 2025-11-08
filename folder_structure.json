@@ -1,41 +1,984 @@
 {
-    ".DS_Store": "file",
-    "Assignment.pdf": "file",
-    "Om_Tapdiya_.pdf": "file",
-    "PHOTO-2025-10-08-10-42-07.jpg": "file",
-    "Screenshot 2025-08-02 at 7.44.09 PM.png": "file",
-    "Screenshot 2025-08-02 at 7.44.38 PM.png": "file",
-    "Screenshot 2025-08-02 at 7.44.57 PM.png": "file",
-    "Screenshot 2025-08-03 at 3.41.55 PM.jpg": "file",
-    "Screenshot 2025-08-10 at 11.26.53 PM.png": "file",
-    "Screenshot 2025-08-10 at 11.27.06 PM.png": "file",
-    "Untitled.pdf": "file",
-    "Weekly_Timetable.pdf": "file",
-    "cap1_choice_code.pdf": "file",
-    "cap1_option_form.pdf": "file",
-    "images": {
-        ".DS_Store": "file",
-        "Screenshot 2025-08-17 at 9.41.42 PM.png": "file",
-        "WhatsApp Image 2025-02-18 at 20.33.51.jpeg": "file",
-        "WhatsApp Image 2025-02-18 at 20.34.00.jpeg": "file",
-        "WhatsApp Image 2025-02-18 at 20.34.40.jpeg": "file",
-        "WhatsApp Image 2025-02-18 at 20.35.05.jpeg": "file",
-        "WhatsApp Image 2025-02-18 at 20.35.09.jpeg": "file",
-        "WhatsApp Image 2025-02-18 at 20.35.10.jpeg": "file",
-        "WhatsApp Image 2025-02-18 at 20.35.11.jpeg": "file",
-        "WhatsApp Image 2025-02-18 at 20.35.12 (1).jpeg": "file",
-        "WhatsApp Image 2025-02-18 at 20.35.12.jpeg": "file",
-        "WhatsApp Image 2025-02-18 at 20.35.13.jpeg": "file",
-        "WhatsApp Image 2025-02-18 at 20.35.14.jpeg": "file",
-        "WhatsApp Image 2025-02-18 at 20.35.15.jpeg": "file",
-        "WhatsApp Image 2025-02-18 at 20.35.16.jpeg": "file",
-        "WhatsApp Image 2025-02-18 at 20.35.17 (1).jpeg": "file",
-        "WhatsApp Image 2025-02-18 at 20.35.17.jpeg": "file",
-        "WhatsApp Image 2025-02-18 at 20.35.18.jpeg": "file",
-        "WhatsApp Image 2025-02-18 at 20.35.20 (1).jpeg": "file",
-        "WhatsApp Image 2025-02-18 at 20.35.20.jpeg": "file",
-        "WhatsApp Image 2025-02-18 at 20.35.21.jpeg": "file",
-        "WhatsApp Image 2025-02-18 at 20.35.22.jpeg": "file",
-        "WhatsApp Image 2025-02-18 at 20.35.23.jpeg": "file"
+    "CHANGES": "file",
+    "INFO_BIN": "file",
+    "INFO_SRC": "file",
+    "LICENSE": "file",
+    "README": "file",
+    "build.xml": "file",
+    "src": {
+        "build": {
+            "java": {
+                "documentation": {
+                    "ErrorMappingsDocGenerator.java": "file",
+                    "PropertiesDocGenerator.java": "file"
+                },
+                "instrumentation": {
+                    "AddMethods.java": "file",
+                    "CommonChecks.java": "file",
+                    "TranslateExceptions.java": "file"
+                }
+            },
+            "misc": {
+                "Product.wxs": "file",
+                "debian.in": {
+                    "changelog": "file",
+                    "compat": "file",
+                    "control": "file",
+                    "copyright": "file",
+                    "install": "file",
+                    "links": "file",
+                    "rules": "file",
+                    "source": {
+                        "format": "file"
+                    },
+                    "watch": "file"
+                },
+                "pom.xml": "file",
+                "rpm.spec.in": "file"
+            }
+        },
+        "demo": {
+            "java": {
+                "demo": {
+                    "x": {
+                        "devapi": {
+                            "DevApiSample.java": "file"
+                        }
+                    }
+                }
+            }
+        },
+        "generated": {
+            "java": {
+                "com": {
+                    "mysql": {
+                        "cj": {
+                            "x": {
+                                "protobuf": {
+                                    "Mysqlx.java": "file",
+                                    "MysqlxConnection.java": "file",
+                                    "MysqlxCrud.java": "file",
+                                    "MysqlxCursor.java": "file",
+                                    "MysqlxDatatypes.java": "file",
+                                    "MysqlxExpect.java": "file",
+                                    "MysqlxExpr.java": "file",
+                                    "MysqlxNotice.java": "file",
+                                    "MysqlxPrepare.java": "file",
+                                    "MysqlxResultset.java": "file",
+                                    "MysqlxSession.java": "file",
+                                    "MysqlxSql.java": "file",
+                                    "package-info.java": "file"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "legacy": {
+            "java": {
+                "com": {
+                    "mysql": {
+                        "jdbc": {
+                            "Driver.java": "file",
+                            "SocketFactory.java": "file",
+                            "SocketFactoryWrapper.java": "file"
+                        }
+                    }
+                }
+            }
+        },
+        "main": {
+            "core-api": {
+                "java": {
+                    "com": {
+                        "mysql": {
+                            "cj": {
+                                "BindValue.java": "file",
+                                "CacheAdapter.java": "file",
+                                "CacheAdapterFactory.java": "file",
+                                "CancelQueryTask.java": "file",
+                                "CharsetMapping.java": "file",
+                                "CharsetSettings.java": "file",
+                                "Constants.java": "file",
+                                "DataStoreMetadata.java": "file",
+                                "MessageBuilder.java": "file",
+                                "Messages.java": "file",
+                                "MysqlConnection.java": "file",
+                                "MysqlType.java": "file",
+                                "PerConnectionLRUFactory.java": "file",
+                                "PingTarget.java": "file",
+                                "PlaceholderPurpose.java": "file",
+                                "PreparedQuery.java": "file",
+                                "Query.java": "file",
+                                "QueryAttributesBindings.java": "file",
+                                "QueryBindings.java": "file",
+                                "QueryInfo.java": "file",
+                                "QueryResult.java": "file",
+                                "QueryReturnType.java": "file",
+                                "ServerVersion.java": "file",
+                                "Session.java": "file",
+                                "TransactionEventHandler.java": "file",
+                                "WarningListener.java": "file",
+                                "callback": {
+                                    "MysqlCallback.java": "file",
+                                    "MysqlCallbackHandler.java": "file",
+                                    "OpenidConnectAuthenticationCallback.java": "file",
+                                    "OpenidConnectIdTokenFromFileCallbackHandler.java": "file",
+                                    "UsernameCallback.java": "file",
+                                    "WebAuthnAuthenticationCallback.java": "file"
+                                },
+                                "conf": {
+                                    "ConnectionPropertiesTransform.java": "file",
+                                    "ConnectionUrl.java": "file",
+                                    "ConnectionUrlParser.java": "file",
+                                    "DatabaseUrlContainer.java": "file",
+                                    "HostInfo.java": "file",
+                                    "HostsListView.java": "file",
+                                    "PropertyDefinition.java": "file",
+                                    "PropertyDefinitions.java": "file",
+                                    "PropertyKey.java": "file",
+                                    "PropertySet.java": "file",
+                                    "RuntimeProperty.java": "file"
+                                },
+                                "exceptions": {
+                                    "AssertionFailedException.java": "file",
+                                    "CJCommunicationsException.java": "file",
+                                    "CJConnectionFeatureNotAvailableException.java": "file",
+                                    "CJException.java": "file",
+                                    "CJOperationNotSupportedException.java": "file",
+                                    "CJPacketTooBigException.java": "file",
+                                    "CJTimeoutException.java": "file",
+                                    "ClosedOnExpiredPasswordException.java": "file",
+                                    "ConnectionIsClosedException.java": "file",
+                                    "DataConversionException.java": "file",
+                                    "DataReadException.java": "file",
+                                    "DataTruncationException.java": "file",
+                                    "DeadlockTimeoutRollbackMarker.java": "file",
+                                    "ExceptionFactory.java": "file",
+                                    "ExceptionInterceptor.java": "file",
+                                    "ExceptionInterceptorChain.java": "file",
+                                    "FeatureNotAvailableException.java": "file",
+                                    "InvalidConnectionAttributeException.java": "file",
+                                    "MysqlErrorNumbers.java": "file",
+                                    "NumberOutOfRange.java": "file",
+                                    "OperationCancelledException.java": "file",
+                                    "PasswordExpiredException.java": "file",
+                                    "PropertyNotModifiableException.java": "file",
+                                    "RSAException.java": "file",
+                                    "SSLParamsException.java": "file",
+                                    "StatementIsClosedException.java": "file",
+                                    "StreamingNotifiable.java": "file",
+                                    "UnableToConnectException.java": "file",
+                                    "UnsupportedConnectionStringException.java": "file",
+                                    "WrongArgumentException.java": "file"
+                                },
+                                "interceptors": {
+                                    "QueryInterceptor.java": "file"
+                                },
+                                "log": {
+                                    "Jdk14Logger.java": "file",
+                                    "Log.java": "file",
+                                    "NullLogger.java": "file",
+                                    "ProfilerEvent.java": "file",
+                                    "ProfilerEventHandler.java": "file",
+                                    "Slf4JLogger.java": "file",
+                                    "StandardLogger.java": "file"
+                                },
+                                "protocol": {
+                                    "AuthenticationPlugin.java": "file",
+                                    "AuthenticationProvider.java": "file",
+                                    "ColumnDefinition.java": "file",
+                                    "FullReadInputStream.java": "file",
+                                    "InternalDate.java": "file",
+                                    "InternalTime.java": "file",
+                                    "InternalTimestamp.java": "file",
+                                    "Message.java": "file",
+                                    "MessageHeader.java": "file",
+                                    "MessageListener.java": "file",
+                                    "MessageReader.java": "file",
+                                    "MessageSender.java": "file",
+                                    "NetworkResources.java": "file",
+                                    "OutputStreamWatcher.java": "file",
+                                    "PacketReceivedTimeHolder.java": "file",
+                                    "PacketSentTimeHolder.java": "file",
+                                    "Protocol.java": "file",
+                                    "ProtocolEntity.java": "file",
+                                    "ProtocolEntityFactory.java": "file",
+                                    "ProtocolEntityReader.java": "file",
+                                    "ResultBuilder.java": "file",
+                                    "ResultStreamer.java": "file",
+                                    "Resultset.java": "file",
+                                    "ResultsetRow.java": "file",
+                                    "ResultsetRows.java": "file",
+                                    "ResultsetRowsOwner.java": "file",
+                                    "ServerCapabilities.java": "file",
+                                    "ServerSession.java": "file",
+                                    "ServerSessionStateController.java": "file",
+                                    "SocketConnection.java": "file",
+                                    "SocketFactory.java": "file",
+                                    "SocketMetadata.java": "file",
+                                    "ValueDecoder.java": "file",
+                                    "ValueEncoder.java": "file",
+                                    "Warning.java": "file",
+                                    "WatchableStream.java": "file"
+                                },
+                                "result": {
+                                    "Field.java": "file",
+                                    "Row.java": "file",
+                                    "RowList.java": "file",
+                                    "ValueFactory.java": "file"
+                                },
+                                "telemetry": {
+                                    "NoopTelemetryHandler.java": "file",
+                                    "NoopTelemetryScope.java": "file",
+                                    "NoopTelemetrySpan.java": "file",
+                                    "TelemetryAttribute.java": "file",
+                                    "TelemetryHandler.java": "file",
+                                    "TelemetryScope.java": "file",
+                                    "TelemetrySpan.java": "file",
+                                    "TelemetrySpanName.java": "file"
+                                },
+                                "util": {
+                                    "Base64Decoder.java": "file",
+                                    "DataTypeUtil.java": "file",
+                                    "DnsSrv.java": "file",
+                                    "EscapeTokenizer.java": "file",
+                                    "LRUCache.java": "file",
+                                    "LazyString.java": "file",
+                                    "LogUtils.java": "file",
+                                    "PerVmServerConfigCacheFactory.java": "file",
+                                    "SaslPrep.java": "file",
+                                    "SearchMode.java": "file",
+                                    "SequentialIdLease.java": "file",
+                                    "StringInspector.java": "file",
+                                    "StringUtils.java": "file",
+                                    "TestUtils.java": "file",
+                                    "TimeUtil.java": "file",
+                                    "Util.java": "file"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "core-impl": {
+                "java": {
+                    "com": {
+                        "mysql": {
+                            "cj": {
+                                "AbstractQuery.java": "file",
+                                "CancelQueryTaskImpl.java": "file",
+                                "ClientPreparedQuery.java": "file",
+                                "CoreSession.java": "file",
+                                "DataStoreMetadataImpl.java": "file",
+                                "LicenseConfiguration.java": "file",
+                                "MysqlxSession.java": "file",
+                                "NativeCharsetSettings.java": "file",
+                                "NativeQueryAttributesBindings.java": "file",
+                                "NativeQueryBindValue.java": "file",
+                                "NativeQueryBindings.java": "file",
+                                "NativeSession.java": "file",
+                                "NoSubInterceptorWrapper.java": "file",
+                                "ServerPreparedQuery.java": "file",
+                                "ServerPreparedQueryTestcaseGenerator.java": "file",
+                                "SimpleQuery.java": "file",
+                                "admin": {
+                                    "ServerController.java": "file"
+                                },
+                                "conf": {
+                                    "AbstractPropertyDefinition.java": "file",
+                                    "AbstractRuntimeProperty.java": "file",
+                                    "BooleanProperty.java": "file",
+                                    "BooleanPropertyDefinition.java": "file",
+                                    "DefaultPropertySet.java": "file",
+                                    "EnumProperty.java": "file",
+                                    "EnumPropertyDefinition.java": "file",
+                                    "IntegerProperty.java": "file",
+                                    "IntegerPropertyDefinition.java": "file",
+                                    "LongProperty.java": "file",
+                                    "LongPropertyDefinition.java": "file",
+                                    "MemorySizeProperty.java": "file",
+                                    "MemorySizePropertyDefinition.java": "file",
+                                    "StringProperty.java": "file",
+                                    "StringPropertyDefinition.java": "file",
+                                    "url": {
+                                        "FailoverConnectionUrl.java": "file",
+                                        "FailoverDnsSrvConnectionUrl.java": "file",
+                                        "LoadBalanceConnectionUrl.java": "file",
+                                        "LoadBalanceDnsSrvConnectionUrl.java": "file",
+                                        "ReplicationConnectionUrl.java": "file",
+                                        "ReplicationDnsSrvConnectionUrl.java": "file",
+                                        "SingleConnectionUrl.java": "file",
+                                        "XDevApiConnectionUrl.java": "file",
+                                        "XDevApiDnsSrvConnectionUrl.java": "file"
+                                    }
+                                },
+                                "log": {
+                                    "BaseMetricsHolder.java": "file",
+                                    "LogFactory.java": "file",
+                                    "LoggingProfilerEventHandler.java": "file",
+                                    "ProfilerEventImpl.java": "file"
+                                },
+                                "otel": {
+                                    "OpenTelemetryHandler.java": "file",
+                                    "OpenTelemetryScope.java": "file",
+                                    "OpenTelemetrySpan.java": "file"
+                                },
+                                "protocol": {
+                                    "AbstractProtocol.java": "file",
+                                    "AbstractSocketConnection.java": "file",
+                                    "ExportControlled.java": "file",
+                                    "NamedPipeSocketFactory.java": "file",
+                                    "ReadAheadInputStream.java": "file",
+                                    "Security.java": "file",
+                                    "SocksProxySocketFactory.java": "file",
+                                    "StandardSocketFactory.java": "file",
+                                    "WatchableOutputStream.java": "file",
+                                    "WatchableWriter.java": "file",
+                                    "WriterWatcher.java": "file",
+                                    "result": {
+                                        "AbstractResultsetRow.java": "file"
+                                    }
+                                },
+                                "result": {
+                                    "AbstractDateTimeValueFactory.java": "file",
+                                    "AbstractNumericValueFactory.java": "file",
+                                    "BigDecimalValueFactory.java": "file",
+                                    "BinaryStreamValueFactory.java": "file",
+                                    "BooleanValueFactory.java": "file",
+                                    "BufferedRowList.java": "file",
+                                    "ByteValueFactory.java": "file",
+                                    "DefaultColumnDefinition.java": "file",
+                                    "DefaultValueFactory.java": "file",
+                                    "DoubleValueFactory.java": "file",
+                                    "DurationValueFactory.java": "file",
+                                    "FloatValueFactory.java": "file",
+                                    "IntegerValueFactory.java": "file",
+                                    "LocalDateTimeValueFactory.java": "file",
+                                    "LocalDateValueFactory.java": "file",
+                                    "LocalTimeValueFactory.java": "file",
+                                    "LongValueFactory.java": "file",
+                                    "OffsetDateTimeValueFactory.java": "file",
+                                    "OffsetTimeValueFactory.java": "file",
+                                    "ShortValueFactory.java": "file",
+                                    "SqlDateValueFactory.java": "file",
+                                    "SqlTimeValueFactory.java": "file",
+                                    "SqlTimestampValueFactory.java": "file",
+                                    "StringValueFactory.java": "file",
+                                    "UtilCalendarValueFactory.java": "file",
+                                    "UuidValueFactory.java": "file",
+                                    "ZonedDateTimeValueFactory.java": "file"
+                                },
+                                "sasl": {
+                                    "ScramSha1SaslClient.java": "file",
+                                    "ScramSha256SaslClient.java": "file",
+                                    "ScramShaSaslClient.java": "file",
+                                    "ScramShaSaslClientFactory.java": "file",
+                                    "ScramShaSaslProvider.java": "file"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "doc": {
+                "connector-j-overview.html": "file",
+                "mysqlx-overview.html": "file"
+            },
+            "protocol-impl": {
+                "java": {
+                    "com": {
+                        "mysql": {
+                            "cj": {
+                                "protocol": {
+                                    "a": {
+                                        "AbstractRowFactory.java": "file",
+                                        "AbstractValueEncoder.java": "file",
+                                        "BinaryResultsetReader.java": "file",
+                                        "BinaryRowFactory.java": "file",
+                                        "BlobValueEncoder.java": "file",
+                                        "BooleanValueEncoder.java": "file",
+                                        "ByteArrayValueEncoder.java": "file",
+                                        "ClobValueEncoder.java": "file",
+                                        "ColumnDefinitionFactory.java": "file",
+                                        "ColumnDefinitionReader.java": "file",
+                                        "CompressedInputStream.java": "file",
+                                        "CompressedPacketSender.java": "file",
+                                        "DebugBufferingPacketReader.java": "file",
+                                        "DebugBufferingPacketSender.java": "file",
+                                        "DurationValueEncoder.java": "file",
+                                        "InputStreamValueEncoder.java": "file",
+                                        "InstantValueEncoder.java": "file",
+                                        "LocalDateTimeValueEncoder.java": "file",
+                                        "LocalDateValueEncoder.java": "file",
+                                        "LocalTimeValueEncoder.java": "file",
+                                        "MergingColumnDefinitionFactory.java": "file",
+                                        "MultiPacketReader.java": "file",
+                                        "MysqlBinaryValueDecoder.java": "file",
+                                        "MysqlTextValueDecoder.java": "file",
+                                        "NativeAuthenticationProvider.java": "file",
+                                        "NativeCapabilities.java": "file",
+                                        "NativeConstants.java": "file",
+                                        "NativeMessageBuilder.java": "file",
+                                        "NativePacketHeader.java": "file",
+                                        "NativePacketPayload.java": "file",
+                                        "NativeProtocol.java": "file",
+                                        "NativeServerSession.java": "file",
+                                        "NativeServerSessionStateController.java": "file",
+                                        "NativeSocketConnection.java": "file",
+                                        "NativeUtils.java": "file",
+                                        "NullValueEncoder.java": "file",
+                                        "NumberValueEncoder.java": "file",
+                                        "OffsetDateTimeValueEncoder.java": "file",
+                                        "OffsetTimeValueEncoder.java": "file",
+                                        "PacketSplitter.java": "file",
+                                        "ReaderValueEncoder.java": "file",
+                                        "ResultsetFactory.java": "file",
+                                        "ResultsetRowReader.java": "file",
+                                        "SimplePacketReader.java": "file",
+                                        "SimplePacketSender.java": "file",
+                                        "SqlDateValueEncoder.java": "file",
+                                        "SqlTimeValueEncoder.java": "file",
+                                        "SqlTimestampValueEncoder.java": "file",
+                                        "StringValueEncoder.java": "file",
+                                        "TextResultsetReader.java": "file",
+                                        "TextRowFactory.java": "file",
+                                        "TimeTrackingPacketReader.java": "file",
+                                        "TimeTrackingPacketSender.java": "file",
+                                        "TracingPacketReader.java": "file",
+                                        "TracingPacketSender.java": "file",
+                                        "UtilCalendarValueEncoder.java": "file",
+                                        "UtilDateValueEncoder.java": "file",
+                                        "ZonedDateTimeValueEncoder.java": "file",
+                                        "authentication": {
+                                            "AuthenticationKerberosClient.java": "file",
+                                            "AuthenticationLdapSaslClientPlugin.java": "file",
+                                            "AuthenticationOciClient.java": "file",
+                                            "AuthenticationOpenidConnectClient.java": "file",
+                                            "AuthenticationWebAuthnClient.java": "file",
+                                            "CachingSha2PasswordPlugin.java": "file",
+                                            "MysqlClearPasswordPlugin.java": "file",
+                                            "MysqlNativePasswordPlugin.java": "file",
+                                            "MysqlOldPasswordPlugin.java": "file",
+                                            "Sha256PasswordPlugin.java": "file"
+                                        },
+                                        "result": {
+                                            "AbstractBufferRow.java": "file",
+                                            "AbstractResultsetRows.java": "file",
+                                            "BinaryBufferRow.java": "file",
+                                            "ByteArrayRow.java": "file",
+                                            "NativeResultset.java": "file",
+                                            "OkPacket.java": "file",
+                                            "ResultsetRowsCursor.java": "file",
+                                            "ResultsetRowsStatic.java": "file",
+                                            "ResultsetRowsStreaming.java": "file",
+                                            "TextBufferRow.java": "file"
+                                        }
+                                    },
+                                    "x": {
+                                        "CompressionAlgorithm.java": "file",
+                                        "CompressionMode.java": "file",
+                                        "CompressionSplittedInputStream.java": "file",
+                                        "CompressionSplittedOutputStream.java": "file",
+                                        "CompressorStreamsFactory.java": "file",
+                                        "ConfinedInputStream.java": "file",
+                                        "ContinuousInputStream.java": "file",
+                                        "ContinuousOutputStream.java": "file",
+                                        "ErrorToFutureCompletionHandler.java": "file",
+                                        "FetchDoneEntity.java": "file",
+                                        "FetchDoneEntityFactory.java": "file",
+                                        "FetchDoneMoreResults.java": "file",
+                                        "FetchDoneMoreResultsFactory.java": "file",
+                                        "FieldFactory.java": "file",
+                                        "MessageConstants.java": "file",
+                                        "Notice.java": "file",
+                                        "NoticeFactory.java": "file",
+                                        "Ok.java": "file",
+                                        "OkBuilder.java": "file",
+                                        "OkFactory.java": "file",
+                                        "ResultMessageListener.java": "file",
+                                        "ReusableOutputStream.java": "file",
+                                        "StatementExecuteOk.java": "file",
+                                        "StatementExecuteOkBuilder.java": "file",
+                                        "StatementExecuteOkFactory.java": "file",
+                                        "SyncFlushDeflaterOutputStream.java": "file",
+                                        "SyncMessageReader.java": "file",
+                                        "SyncMessageSender.java": "file",
+                                        "XAuthenticationProvider.java": "file",
+                                        "XMessage.java": "file",
+                                        "XMessageBuilder.java": "file",
+                                        "XMessageHeader.java": "file",
+                                        "XProtocol.java": "file",
+                                        "XProtocolDecoder.java": "file",
+                                        "XProtocolError.java": "file",
+                                        "XProtocolRow.java": "file",
+                                        "XProtocolRowFactory.java": "file",
+                                        "XProtocolRowInputStream.java": "file",
+                                        "XServerCapabilities.java": "file",
+                                        "XServerSession.java": "file",
+                                        "XpluginStatementCommand.java": "file"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "resources": {
+                "com": {
+                    "mysql": {
+                        "cj": {
+                            "LocalizedErrorMessages.properties": "file",
+                            "TlsSettings.properties": "file",
+                            "configurations": {
+                                "3-0-Compat.properties": "file",
+                                "clusterBase.properties": "file",
+                                "coldFusion.properties": "file",
+                                "fullDebug.properties": "file",
+                                "maxPerformance-8-0.properties": "file",
+                                "maxPerformance.properties": "file",
+                                "solarisMaxPerformance.properties": "file"
+                            },
+                            "util": {
+                                "TimeZoneMapping.properties": "file"
+                            }
+                        }
+                    }
+                }
+            },
+            "user-api": {
+                "java": {
+                    "com": {
+                        "mysql": {
+                            "cj": {
+                                "jdbc": {
+                                    "ClientInfoProvider.java": "file",
+                                    "CloseOption.java": "file",
+                                    "JdbcConnection.java": "file",
+                                    "JdbcPreparedStatement.java": "file",
+                                    "JdbcPropertySet.java": "file",
+                                    "JdbcStatement.java": "file",
+                                    "ParameterBindings.java": "file",
+                                    "ha": {
+                                        "BalanceStrategy.java": "file",
+                                        "LoadBalanceExceptionChecker.java": "file",
+                                        "LoadBalancedConnection.java": "file",
+                                        "ReplicationConnection.java": "file"
+                                    },
+                                    "interceptors": {
+                                        "ConnectionLifecycleInterceptor.java": "file"
+                                    },
+                                    "result": {
+                                        "CachedResultSetMetaData.java": "file",
+                                        "ResultSetInternalMethods.java": "file"
+                                    }
+                                },
+                                "xdevapi": {
+                                    "AddResult.java": "file",
+                                    "AddStatement.java": "file",
+                                    "Client.java": "file",
+                                    "ClientFactory.java": "file",
+                                    "Collection.java": "file",
+                                    "Column.java": "file",
+                                    "DatabaseObject.java": "file",
+                                    "DbDoc.java": "file",
+                                    "DeleteStatement.java": "file",
+                                    "DocResult.java": "file",
+                                    "Expression.java": "file",
+                                    "FetchResult.java": "file",
+                                    "FilterParams.java": "file",
+                                    "FindStatement.java": "file",
+                                    "InsertResult.java": "file",
+                                    "InsertStatement.java": "file",
+                                    "JsonValue.java": "file",
+                                    "ModifyStatement.java": "file",
+                                    "RemoveStatement.java": "file",
+                                    "Result.java": "file",
+                                    "Row.java": "file",
+                                    "RowResult.java": "file",
+                                    "Schema.java": "file",
+                                    "SelectStatement.java": "file",
+                                    "Session.java": "file",
+                                    "SessionFactory.java": "file",
+                                    "SqlResult.java": "file",
+                                    "SqlStatement.java": "file",
+                                    "Statement.java": "file",
+                                    "Table.java": "file",
+                                    "Type.java": "file",
+                                    "UpdateStatement.java": "file",
+                                    "UpdateType.java": "file",
+                                    "Warning.java": "file",
+                                    "XDevAPIError.java": "file",
+                                    "package-info.java": "file"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "user-impl": {
+                "java": {
+                    "com": {
+                        "mysql": {
+                            "cj": {
+                                "jdbc": {
+                                    "AbandonedConnectionCleanupThread.java": "file",
+                                    "Blob.java": "file",
+                                    "BlobFromLocator.java": "file",
+                                    "CallableStatement.java": "file",
+                                    "CallableStatementWrapper.java": "file",
+                                    "ClientInfoProviderSP.java": "file",
+                                    "ClientPreparedStatement.java": "file",
+                                    "Clob.java": "file",
+                                    "CommentClientInfoProvider.java": "file",
+                                    "ConnectionGroup.java": "file",
+                                    "ConnectionGroupManager.java": "file",
+                                    "ConnectionImpl.java": "file",
+                                    "ConnectionWrapper.java": "file",
+                                    "DatabaseMetaData.java": "file",
+                                    "DatabaseMetaDataInformationSchema.java": "file",
+                                    "DatabaseMetaDataMysqlSchema.java": "file",
+                                    "Driver.java": "file",
+                                    "EscapeProcessor.java": "file",
+                                    "EscapeProcessorResult.java": "file",
+                                    "JdbcPropertySetImpl.java": "file",
+                                    "MysqlConnectionPoolDataSource.java": "file",
+                                    "MysqlDataSource.java": "file",
+                                    "MysqlDataSourceFactory.java": "file",
+                                    "MysqlParameterMetadata.java": "file",
+                                    "MysqlPooledConnection.java": "file",
+                                    "MysqlSQLXML.java": "file",
+                                    "MysqlSavepoint.java": "file",
+                                    "MysqlXAConnection.java": "file",
+                                    "MysqlXADataSource.java": "file",
+                                    "MysqlXAException.java": "file",
+                                    "MysqlXid.java": "file",
+                                    "NClob.java": "file",
+                                    "NonRegisteringDriver.java": "file",
+                                    "ParameterBindingsImpl.java": "file",
+                                    "PreparedStatementWrapper.java": "file",
+                                    "ServerPreparedStatement.java": "file",
+                                    "StatementImpl.java": "file",
+                                    "StatementWrapper.java": "file",
+                                    "SuspendableXAConnection.java": "file",
+                                    "WrapperBase.java": "file",
+                                    "admin": {
+                                        "MiniAdmin.java": "file"
+                                    },
+                                    "exceptions": {
+                                        "CommunicationsException.java": "file",
+                                        "ConnectionFeatureNotAvailableException.java": "file",
+                                        "MySQLQueryInterruptedException.java": "file",
+                                        "MySQLStatementCancelledException.java": "file",
+                                        "MySQLTimeoutException.java": "file",
+                                        "MySQLTransactionRollbackException.java": "file",
+                                        "MysqlDataTruncation.java": "file",
+                                        "NotUpdatable.java": "file",
+                                        "OperationNotSupportedException.java": "file",
+                                        "PacketTooBigException.java": "file",
+                                        "SQLError.java": "file",
+                                        "SQLExceptionsMapping.java": "file"
+                                    },
+                                    "ha": {
+                                        "BestResponseTimeBalanceStrategy.java": "file",
+                                        "FailoverConnectionProxy.java": "file",
+                                        "LoadBalancedAutoCommitInterceptor.java": "file",
+                                        "LoadBalancedConnectionProxy.java": "file",
+                                        "LoadBalancedMySQLConnection.java": "file",
+                                        "MultiHostConnectionProxy.java": "file",
+                                        "MultiHostMySQLConnection.java": "file",
+                                        "NdbLoadBalanceExceptionChecker.java": "file",
+                                        "RandomBalanceStrategy.java": "file",
+                                        "ReplicationConnectionGroup.java": "file",
+                                        "ReplicationConnectionGroupManager.java": "file",
+                                        "ReplicationConnectionProxy.java": "file",
+                                        "ReplicationMySQLConnection.java": "file",
+                                        "SequentialBalanceStrategy.java": "file",
+                                        "ServerAffinityStrategy.java": "file",
+                                        "StandardLoadBalanceExceptionChecker.java": "file"
+                                    },
+                                    "integration": {
+                                        "c3p0": {
+                                            "MysqlConnectionTester.java": "file"
+                                        }
+                                    },
+                                    "interceptors": {
+                                        "ResultSetScannerInterceptor.java": "file",
+                                        "ServerStatusDiffInterceptor.java": "file",
+                                        "SessionAssociationInterceptor.java": "file"
+                                    },
+                                    "jmx": {
+                                        "LoadBalanceConnectionGroupManager.java": "file",
+                                        "LoadBalanceConnectionGroupManagerMBean.java": "file",
+                                        "ReplicationGroupManager.java": "file",
+                                        "ReplicationGroupManagerMBean.java": "file"
+                                    },
+                                    "result": {
+                                        "CachedResultSetMetaDataImpl.java": "file",
+                                        "ResultSetFactory.java": "file",
+                                        "ResultSetImpl.java": "file",
+                                        "ResultSetMetaData.java": "file",
+                                        "UpdatableResultSet.java": "file"
+                                    },
+                                    "util": {
+                                        "BaseBugReport.java": "file"
+                                    }
+                                },
+                                "xdevapi": {
+                                    "AbstractDataResult.java": "file",
+                                    "AbstractFilterParams.java": "file",
+                                    "AddResultBuilder.java": "file",
+                                    "AddResultImpl.java": "file",
+                                    "AddStatementImpl.java": "file",
+                                    "ClientImpl.java": "file",
+                                    "CollectionImpl.java": "file",
+                                    "ColumnImpl.java": "file",
+                                    "CreateIndexParams.java": "file",
+                                    "DatabaseObjectDescription.java": "file",
+                                    "DbDocFactory.java": "file",
+                                    "DbDocImpl.java": "file",
+                                    "DbDocValueFactory.java": "file",
+                                    "DeleteStatementImpl.java": "file",
+                                    "DocFilterParams.java": "file",
+                                    "DocResultBuilder.java": "file",
+                                    "DocResultImpl.java": "file",
+                                    "ExprParser.java": "file",
+                                    "ExprUnparser.java": "file",
+                                    "ExprUtil.java": "file",
+                                    "FilterableStatement.java": "file",
+                                    "FindStatementImpl.java": "file",
+                                    "InsertParams.java": "file",
+                                    "InsertResultBuilder.java": "file",
+                                    "InsertResultImpl.java": "file",
+                                    "InsertStatementImpl.java": "file",
+                                    "JsonArray.java": "file",
+                                    "JsonLiteral.java": "file",
+                                    "JsonNumber.java": "file",
+                                    "JsonParser.java": "file",
+                                    "JsonString.java": "file",
+                                    "ModifyStatementImpl.java": "file",
+                                    "PreparableStatement.java": "file",
+                                    "RemoveStatementImpl.java": "file",
+                                    "RowFactory.java": "file",
+                                    "RowImpl.java": "file",
+                                    "RowResultBuilder.java": "file",
+                                    "RowResultImpl.java": "file",
+                                    "SchemaImpl.java": "file",
+                                    "SelectStatementImpl.java": "file",
+                                    "SessionImpl.java": "file",
+                                    "SqlMultiResult.java": "file",
+                                    "SqlResultBuilder.java": "file",
+                                    "SqlSingleResult.java": "file",
+                                    "SqlStatementImpl.java": "file",
+                                    "SqlUpdateResult.java": "file",
+                                    "StreamingDocResultBuilder.java": "file",
+                                    "StreamingRowResultBuilder.java": "file",
+                                    "StreamingSqlResultBuilder.java": "file",
+                                    "TableFilterParams.java": "file",
+                                    "TableImpl.java": "file",
+                                    "UpdateParams.java": "file",
+                                    "UpdateResult.java": "file",
+                                    "UpdateResultBuilder.java": "file",
+                                    "UpdateSpec.java": "file",
+                                    "UpdateStatementImpl.java": "file",
+                                    "WarningImpl.java": "file"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "test": {
+            "config": {
+                "ssl-test-certs": {
+                    "ca-cert-ext.pem": "file",
+                    "ca-cert.pem": "file",
+                    "ca-key-ext.pem": "file",
+                    "ca-key.pem": "file",
+                    "ca-truststore": "file",
+                    "ca-truststore-ext": "file",
+                    "certs_howto.txt": "file",
+                    "client-cert-ext.pem": "file",
+                    "client-cert.pem": "file",
+                    "client-key-ext.pem": "file",
+                    "client-key.pem": "file",
+                    "client-keystore": "file",
+                    "client-keystore-ext": "file",
+                    "mykey.pem": "file",
+                    "mykey.pub": "file",
+                    "server-cert-ext.pem": "file",
+                    "server-cert.pem": "file",
+                    "server-key-ext.pem": "file",
+                    "server-key.pem": "file"
+                }
+            },
+            "java": {
+                "com": {
+                    "mysql": {
+                        "cj": {
+                            "CharsetMappingWrapper.java": "file",
+                            "ConnectionUrlTest.java": "file",
+                            "MessagesTest.java": "file",
+                            "ServerVersionTest.java": "file",
+                            "protocol": {
+                                "a": {
+                                    "CompressedPacketSenderTest.java": "file",
+                                    "DebugBufferingPacketSenderTest.java": "file",
+                                    "MysqlBinaryValueDecoderTest.java": "file",
+                                    "MysqlTextValueDecoderTest.java": "file",
+                                    "PacketSenderTestBase.java": "file",
+                                    "SimplePacketReaderTest.java": "file",
+                                    "SimplePacketSenderTest.java": "file"
+                                },
+                                "x": {
+                                    "CompressionTest.java": "file",
+                                    "SyncMessageReaderTest.java": "file",
+                                    "SyncMessageWriterTest.java": "file"
+                                }
+                            },
+                            "result": {
+                                "BigDecimalValueFactoryTest.java": "file",
+                                "BinaryStreamValueFactoryTest.java": "file",
+                                "BooleanValueFactoryTest.java": "file",
+                                "ByteValueFactoryTest.java": "file",
+                                "CommonAsserts.java": "file",
+                                "DoubleValueFactoryTest.java": "file",
+                                "FloatValueFactoryTest.java": "file",
+                                "IntegerValueFactoryTest.java": "file",
+                                "LocalDateTimeValueFactoryTest.java": "file",
+                                "LocalDateValueFactoryTest.java": "file",
+                                "LocalTimeValueFactoryTest.java": "file",
+                                "LongValueFactoryTest.java": "file",
+                                "ShortValueFactoryTest.java": "file",
+                                "SqlDateValueFactoryTest.java": "file",
+                                "SqlTimeValueFactoryTest.java": "file",
+                                "SqlTimestampValueFactoryTest.java": "file",
+                                "StringValueFactoryTest.java": "file",
+                                "ZeroDateTimeToNullValueFactoryTest.java": "file"
+                            },
+                            "util": {
+                                "StringInspectorTest.java": "file",
+                                "StringUtilsTest.java": "file",
+                                "TimeUtilTest.java": "file"
+                            },
+                            "xdevapi": {
+                                "ExprParserTest.java": "file",
+                                "JsonDocTest.java": "file"
+                            }
+                        }
+                    }
+                },
+                "testsuite": {
+                    "BaseQueryInterceptor.java": "file",
+                    "BaseTestCase.java": "file",
+                    "BufferingLogger.java": "file",
+                    "InjectedSocketFactory.java": "file",
+                    "JUnitSummary.java": "file",
+                    "MockJndiContextFactory.java": "file",
+                    "TestUtils.java": "file",
+                    "UnreliableSocketFactory.java": "file",
+                    "perf": {
+                        "BasePerfTest.java": "file",
+                        "LoadStorePerfTest.java": "file",
+                        "RetrievalPerfTest.java": "file"
+                    },
+                    "regression": {
+                        "BlobRegressionTest.java": "file",
+                        "CachedRowsetTest.java": "file",
+                        "CallableStatementRegressionTest.java": "file",
+                        "CharsetRegressionTest.java": "file",
+                        "ConnectionRegressionTest.java": "file",
+                        "DataSourceRegressionTest.java": "file",
+                        "DateTimeRegressionTest.java": "file",
+                        "EscapeProcessorRegressionTest.java": "file",
+                        "ExceptionSubclassesTest.java": "file",
+                        "MetaDataRegressionTest.java": "file",
+                        "MicroPerformanceRegressionTest.java": "file",
+                        "NonLocalSocketFactory.java": "file",
+                        "NumbersRegressionTest.java": "file",
+                        "PooledConnectionRegressionTest.java": "file",
+                        "ResultSetRegressionTest.java": "file",
+                        "StatementRegressionTest.java": "file",
+                        "StressRegressionTest.java": "file",
+                        "StringRegressionTest.java": "file",
+                        "SubqueriesRegressionTest.java": "file",
+                        "SyntaxRegressionTest.java": "file",
+                        "UtilsRegressionTest.java": "file"
+                    },
+                    "simple": {
+                        "AuthenticationTest.java": "file",
+                        "BlobTest.java": "file",
+                        "CallableStatementTest.java": "file",
+                        "CharsetTest.java": "file",
+                        "ConnectionTest.java": "file",
+                        "DataSourceTest.java": "file",
+                        "DateTest.java": "file",
+                        "DateTimeTest.java": "file",
+                        "EscapeProcessingTest.java": "file",
+                        "ExceptionsTest.java": "file",
+                        "MetaDataTest.java": "file",
+                        "MiniAdminTest.java": "file",
+                        "MultiHostConnectionTest.java": "file",
+                        "NumbersTest.java": "file",
+                        "QueryAttributesTest.java": "file",
+                        "ReadOnlyCallableStatementTest.java": "file",
+                        "ResultSetTest.java": "file",
+                        "SaslPrepTest.java": "file",
+                        "SecureConnectionTest.java": "file",
+                        "SequentialIdLeaseTest.java": "file",
+                        "ServerControllerTest.java": "file",
+                        "SimpleTransformer.java": "file",
+                        "SplitDBdotNameTest.java": "file",
+                        "StatementsTest.java": "file",
+                        "TestLifecycleInterceptor.java": "file",
+                        "TransactionTest.java": "file",
+                        "TraversalTest.java": "file",
+                        "UpdatabilityTest.java": "file",
+                        "UtilsTest.java": "file",
+                        "XATest.java": "file"
+                    },
+                    "x": {
+                        "devapi": {
+                            "AsyncQueryTest.java": "file",
+                            "BaseCollectionTestCase.java": "file",
+                            "BaseTableTestCase.java": "file",
+                            "BindTest.java": "file",
+                            "CollectionAddTest.java": "file",
+                            "CollectionFindTest.java": "file",
+                            "CollectionModifyTest.java": "file",
+                            "CollectionRemoveTest.java": "file",
+                            "CollectionTest.java": "file",
+                            "CompressionTest.java": "file",
+                            "DevApiBaseTestCase.java": "file",
+                            "Ipv6SupportTest.java": "file",
+                            "MetadataTest.java": "file",
+                            "ResultTest.java": "file",
+                            "RowLockingTest.java": "file",
+                            "SchemaTest.java": "file",
+                            "SecureSessionTest.java": "file",
+                            "SessionFailoverTest.java": "file",
+                            "SessionTest.java": "file",
+                            "TableDeleteTest.java": "file",
+                            "TableInsertTest.java": "file",
+                            "TableSelectTest.java": "file",
+                            "TableTest.java": "file",
+                            "TableUpdateTest.java": "file",
+                            "TransactionTest.java": "file",
+                            "package-info.java": "file"
+                        },
+                        "internal": {
+                            "InternalXBaseTestCase.java": "file",
+                            "MysqlxSessionTest.java": "file",
+                            "XProtocolAsyncTest.java": "file",
+                            "XProtocolAuthTest.java": "file",
+                            "XProtocolTest.java": "file",
+                            "package-info.java": "file"
+                        }
+                    }
+                }
+            }
+        }
     }
 }
